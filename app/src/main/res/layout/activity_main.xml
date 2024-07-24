@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36E9D8"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:backgroundTint="#8BC34A"
+        android:text="Download" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginTop="10dp"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E9E3AB"
+        android:layout_marginTop="10dp"
+        android:text="Light" />
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="150dp"
+        android:backgroundTint="#100F0F"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Dark" />
+
+
+</LinearLayout>
